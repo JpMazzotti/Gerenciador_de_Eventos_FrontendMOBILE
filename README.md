@@ -19,13 +19,16 @@ npx expo start
 2. No celular, abra o app Expo Go.
 3. Escaneie o QR code que aparece no terminal.
 4. Pronto! O app vai abrir no celular.
-Dicas importantes
+
+
 - ⚠️ O celular e o computador precisam estar no mesmo Wi-Fi.
 - Atalhos úteis no terminal:
 - a → abre no emulador Android
 - i → abre no simulador iOS
 - w → abre no navegador (web)
 - r → recarrega o app
+
+
 🌐 Como rodar no navegador (web)
 npm run web
 O app vai abrir no navegador. As funcionalidades são as mesmas do celular.
@@ -47,6 +50,10 @@ GET	/api/eventos
 POST	/api/eventos
 PUT	/api/eventos/:id
 DELETE	/api/eventos/:id
+
+
+
+
 ✨ Funcionalidades
 - Login com e-mail e senha
 - Opção "Lembrar minha senha" (salva as credenciais no celular via AsyncStorage)
@@ -56,6 +63,8 @@ DELETE	/api/eventos/:id
 - Editar evento (data e local)
 - Excluir evento (com confirmação)
 - Sessão mantida mesmo fechando o app (token salvo no dispositivo)
+
+
 📁 Estrutura do projeto
 Pasta / Arquivo	Para que serve
 src/app/	Rotas do app (telas) usando expo-router
@@ -70,6 +79,9 @@ src/context/	Contexto de autenticação (login/logout globais)
 src/storage/	Salvar/ler dados no celular (AsyncStorage)
 src/utils/	Utilitários (cores/tema e formatação de datas)
 src/types/	Tipos TypeScript usados no projeto
+
+
+
 🛠️ Tecnologias
 - React Native 0.81
 - Expo SDK 54
