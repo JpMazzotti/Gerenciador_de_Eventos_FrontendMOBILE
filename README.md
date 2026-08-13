@@ -1,12 +1,16 @@
-Gerenciador de Eventos - Frontend Mobile
-Aplicativo mobile feito com React Native e Expo para gerenciar eventos. Ele se conecta a um backend (API) para fazer login, cadastrar administradores e criar/editar/excluir eventos.
-Este repositório é o frontend (app). Ele depende de um backend rodando na porta 8080 para funcionar.
-- O app Expo Go instalado no celular (Android: Google Play / iOS: App Store)
-- O backend do projeto rodando na porta 8080 do seu computador
-- O computador e o celular conectados no mesmo Wi-Fi
-  
-📦 Instalação
+ Gerenciador de Eventos - Frontend Mobile
+
+Aplicativo mobile feito com **React Native** e **Expo** para gerenciar eventos. Ele se conecta a um **backend** (API) para fazer login, cadastrar administradores e criar/editar/excluir eventos.
+
+> Este repositório é o **frontend** (app). Ele depende de um **backend** rodando na porta `8080` para funcionar.
+
+---
+
+## 📦 Instalação
+
 Abra o terminal na pasta do projeto e rode:
+
+```bash
 npm install
 Esse comando baixa todas as dependências (bibliotecas) que o projeto precisa.
 📱 Como rodar no celular
@@ -15,8 +19,11 @@ npx expo start
 2. No celular, abra o app Expo Go.
 3. Escaneie o QR code que aparece no terminal.
 4. Pronto! O app vai abrir no celular.
-5. 
+Dicas importantes
 - ⚠️ O celular e o computador precisam estar no mesmo Wi-Fi.
+- Atalhos úteis no terminal:
+- a → abre no emulador Android
+- i → abre no simulador iOS
 - w → abre no navegador (web)
 - r → recarrega o app
 🌐 Como rodar no navegador (web)
